@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface2D">
+      <UniqueIdentifier>{b3c6cd9c-a56e-4606-88e0-5f080300f91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface2D\res">
+      <UniqueIdentifier>{aa21429b-5809-4fe4-a6d7-443addab0efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wavFile">
+      <UniqueIdentifier>{88164cb6-4468-4a0e-be1c-dedab930e75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dib">
+      <UniqueIdentifier>{50519e6d-897b-45a5-ae90-5db5e84900cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recorder">
+      <UniqueIdentifier>{d75b08d7-05ab-47a6-ae61-4a9fe1b3615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WaveIn">
+      <UniqueIdentifier>{76ccd84d-9356-426f-afbf-9bdd3e43e31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmath">
+      <UniqueIdentifier>{406910dd-e34f-4c5a-b9d8-d6f4e4e80574}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Interface2D\Interface2D.cpp">
+      <Filter>Interface2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface2D\qTrace.cpp">
+      <Filter>Interface2D</Filter>
+    </ClCompile>
+    <ClCompile Include="wavFile\wavFile.cpp">
+      <Filter>wavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualWav.cpp" />
+    <ClCompile Include="Dib\Dib.cpp">
+      <Filter>Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveIn\WaveIn.cpp">
+      <Filter>WaveIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Recorder\Recorder.cpp">
+      <Filter>Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="vmath\vmath.cpp">
+      <Filter>vmath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface2D\Interface2D.h">
+      <Filter>Interface2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface2D\qTrace.h">
+      <Filter>Interface2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface2D\res\resource.h">
+      <Filter>Interface2D\res</Filter>
+    </ClInclude>
+    <ClInclude Include="wavFile\wavFile.h">
+      <Filter>wavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualWav.h" />
+    <ClInclude Include="Dib\Dib.h">
+      <Filter>Dib</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveIn\WaveIn.h">
+      <Filter>WaveIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Recorder\Recorder.h">
+      <Filter>Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="vmath\vmath.h">
+      <Filter>vmath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Interface2D\res\Interface2D.rc">
+      <Filter>Interface2D\res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Interface2D\res\Globe.ICO" />
+    <Image Include="Interface2D\res\lotus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Windows.manifest" />
+  </ItemGroup>
+</Project>
